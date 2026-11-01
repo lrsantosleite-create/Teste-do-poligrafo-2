@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do Polígrafo 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+<header class="header">
+    <div class="logo">
+            <img src="FBI-Logo.png" alt="logo do FBI" class="fbi-logo">
+            <div class="logo-text">
+        <h2>FBI</h2>
+        <p>FEDERAL BUREAU OF INVESTIGATION</p>
+    </div>
+        </div>
+
+       
+
+    <span class="classified">CONFIDENTIAL • RESTRICTED ACCESS</span>
+</header>
+
+    <main class="container">
+
+        
+<section class="intro">
+    <p class="subtitle">FEDERAL INVESTIGATION SYSTEM</p>
+
+    <h1>FBI <span>INTERROGATION</span></h1>
+
+    <p class="description">
+        Sistema de interrogatório e análise de informações.
+        Responda às perguntas para concluir o processo de investigação.
+    </p>
+</section>
+
+
+        <section class="investigation-card">
+
+            <div class="card-header">
+                <div>
+                    <p class="small-label">INTERROGATÓRIO EM ANDAMENTO</p>
+                    <h2>Investigação policial</h2>
+                </div>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    ATIVO
+                </div>
+            </div>
+
+            <div class="quiz-progress">
+                <div class="progress-info">
+                    <span id="progress-text">Pergunta 1 de 10</span>
+                    <span id="progress-percentage">10%</span>
+                </div>
+
+                <div class="progress-track">
+                    <div id="progress-fill"></div>
+                </div>
+            </div>
+
+            <form id="quiz-form">
+
+                <div id="questions-container"></div>
+
+                <div class="quiz-navigation">
+                    <button type="button" id="prev-button" disabled>
+                        ← Anterior
+                    </button>
+
+                    <button type="button" id="next-button">
+                        Próxima pergunta →
+                    </button>
+
+                    <button type="submit" id="finish-button" hidden>
+                        Ver resultado
+                    </button>
+                </div>
+
+            </form>
+
+            <section id="result" class="result" hidden></section>
+
+        </section>
+
+        
+
+    </main>
+
+    
+<footer>
+    <p>FBI • INVESTIGATION DEPARTMENT</p>
+    <p>CONFIDENTIAL - RESTRICTED ACCESS</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
